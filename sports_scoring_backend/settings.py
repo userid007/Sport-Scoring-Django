@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-$px#ghgaux$dj_93@7s10%&l09ofw0f&mp#&^4my*f4_h1(7*z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "*"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "*", ".vercel.app"]
 
 # CORS_ORIGIN_ALLOW_ALL = True
 
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "sports_scoring_backend.wsgi.application"
+WSGI_APPLICATION = "sports_scoring_backend.wsgi.app"
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
